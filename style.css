@@ -1,0 +1,18 @@
+h1{
+	font-size: 20px;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #e6e6e6;
+}
+
+.contendedor{
+	width: 90%;
+	margin: 20px auto;
+	max-width: 1000px;
+}
