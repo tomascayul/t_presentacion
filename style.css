@@ -8,6 +8,29 @@ body{
 
 .caja{
 	width: 90%;
+	height: 270px;
 	margin: 20px auto;
 	border: 2px solid black;
+	/*display: inline-flex;
+	position: static;
+	*/
+}
+
+h1{
+	text-align: center;
+}
+
+.foto{
+	float: left;
+	margin-left: 35%;
+	border-radius: 50px;
+}
+
+
+.lista {
+	margin-left: 50%;
+}
+
+.rss{
+	clear: both;
 }
