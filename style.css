@@ -84,7 +84,7 @@ h2{
   .caja  {
     width:100%;
     height: auto;
-    margin: 15px auto;
+    margin: 30px auto;
   }
   .lista {
   	padding: 10px;
@@ -92,5 +92,9 @@ h2{
   h1{
   	font-size: 30px;
   	padding-top: 5px;
+  }
+  .f_perfil{
+  	height: 150px;
+  	width: auto;
   }
 }
