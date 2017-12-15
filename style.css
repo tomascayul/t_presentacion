@@ -79,15 +79,13 @@ h2{
 	text-align: center;
 }
 
-@media only screen and (max-with: 550px) {
-	.caja {
-	width: 100%;
-	height: 240px;
-	margin: 60px auto;
-	border: 2px solid #ccc;
-	padding: 50px;
-	background-color: rgba(11,168,16,0.6);
-/*	background-image: url(img/fondo_azul.jpg);
-*/	box-shadow: 3px 3px #ccc;
-	position: relative;
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .caja  {
+    width:100%;
+    height: auto;
+  }
+  .lista {
+  	padding-bottom: 30px;
+  }
 }
