@@ -7,30 +7,38 @@ body{
 }
 
 .caja{
-	width: 90%;
-	height: 270px;
-	margin: 20px auto;
+	width: 45%;
+	height: 240px;
+	margin: 60px auto;
 	border: 2px solid black;
-	/*display: inline-flex;
-	position: static;
-	*/
+	padding: 50px;
 }
 
 h1{
 	text-align: center;
+	margin-top: 100px;
 }
 
 .foto{
 	float: left;
-	margin-left: 35%;
-	border-radius: 50px;
+	margin-left: 5%;
 }
 
+.foto{
+	border-radius: 60%;
+	
+}
 
 .lista {
-	margin-left: 50%;
+	margin-top: 30px;
+	margin-left: 38%;
 }
 
 .rss{
 	clear: both;
 }
+
+li{
+	list-style-type: none;
+}
+
