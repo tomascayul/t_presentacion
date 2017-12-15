@@ -10,8 +10,10 @@ body{
 	width: 45%;
 	height: 240px;
 	margin: 60px auto;
-	border: 2px solid black;
+	border: 2px solid #ccc;
 	padding: 50px;
+	background-color: rgba(19,207,42,0.4);
+	box-shadow: 5px 5px #ccc;
 }
 
 h1{
@@ -34,11 +36,24 @@ h1{
 	margin-left: 38%;
 }
 
-.rss{
-	clear: both;
-}
-
 li{
 	list-style-type: none;
 }
 
+.rss ul li{
+	/*display: inline-block;*/
+	float: left;
+	margin: 27px;
+
+}
+.rss{
+	width: 45%;
+	height: 240px;
+	margin: 60px auto;
+	/*border: 2px solid black;*/
+	/*padding: 50px;*/
+}
+
+h2{	
+	text-align: center;
+}
